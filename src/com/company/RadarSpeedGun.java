@@ -15,6 +15,7 @@ public class RadarSpeedGun {
     }
 
     public double getTotalSpeed() {
+
         return totalSpeed;
     }
 

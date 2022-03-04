@@ -12,12 +12,12 @@ public class MarathonRunner extends Person implements Mover{
     @Override
     public double move(){
         setSpeed(5);
-        System.out.println("The marathon runner is now running at " + getSpeed() + " mph.");
+        System.out.println("The marathon runner" + name + "is now running at " + getSpeed() + " mph.");
         return getSpeed();
     }
     @Override
     public void outputDetails(){
         super.outputDetails();
-        System.out.println("Has runner ran in previous races? + hasRaced");
+        System.out.println("Has " + name + " ran in previous races? + hasRaced");
     }
 }

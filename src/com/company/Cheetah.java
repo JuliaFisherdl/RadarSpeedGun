@@ -14,14 +14,14 @@ public class Cheetah extends Animal implements Mover {
     @Override
     public double move() {
         setSpeed(10);
-        System.out.println("The Cheetah is now moving at " + getSpeed());
+        System.out.println("The Cheetah" + name + "is now moving at " + getSpeed());
         return getSpeed();
 
     }
 
     @Override
     public void outputDetails() {
-        System.out.println("Is this cheetah injured? " + hasInjury);
+        System.out.println("Is cheetah injured? " + hasInjury);
 
     }
 }
